@@ -1,0 +1,92 @@
+api_keys:
+  kucoin:
+    account_1:
+      - api_key: "kucoin_account1_api_key_1"
+        secret: "kucoin_account1_secret_1"
+      - api_key: "kucoin_account1_api_key_2"
+        secret: "kucoin_account1_secret_2"
+      - api_key: "kucoin_account1_api_key_3"
+        secret: "kucoin_account1_secret_3"
+    account_2:
+      - api_key: "kucoin_account2_api_key_1"
+        secret: "kucoin_account2_secret_1"
+      - api_key: "kucoin_account2_api_key_2"
+        secret: "kucoin_account2_secret_2"
+      - api_key: "kucoin_account2_api_key_3"
+        secret: "kucoin_account2_secret_3"
+  bybit:
+    account_1:
+      - api_key: "bybit_account1_api_key_1"
+        secret: "bybit_account1_secret_1"
+      - api_key: "bybit_account1_api_key_2"
+        secret: "bybit_account1_secret_2"
+      - api_key: "bybit_account1_api_key_3"
+        secret: "bybit_account1_secret_3"
+    account_2:
+      - api_key: "bybit_account2_api_key_1"
+        secret: "bybit_account2_secret_1"
+      - api_key: "bybit_account2_api_key_2"
+        secret: "bybit_account2_secret_2"
+      - api_key: "bybit_account2_api_key_3"
+        secret: "bybit_account2_secret_3"
+  huobi:
+    account_1:
+      - api_key: "huobi_account1_api_key_1"
+        secret: "huobi_account1_secret_1"
+      - api_key: "huobi_account1_api_key_2"
+        secret: "huobi_account1_secret_2"
+      - api_key: "huobi_account1_api_key_3"
+        secret: "huobi_account1_secret_3"
+    account_2:
+      - api_key: "huobi_account2_api_key_1"
+        secret: "huobi_account2_secret_1"
+      - api_key: "huobi_account2_api_key_2"
+        secret: "huobi_account2_secret_2"
+      - api_key: "huobi_account2_api_key_3"
+        secret: "huobi_account2_secret_3"
+  okx:
+    account_1:
+      - api_key: "okx_account1_api_key_1"
+        secret: "okx_account1_secret_1"
+        passphrase: "okx_account1_passphrase_1"
+      - api_key: "okx_account1_api_key_2"
+        secret: "okx_account1_secret_2"
+        passphrase: "okx_account1_passphrase_2"
+      - api_key: "okx_account1_api_key_3"
+        secret: "okx_account1_secret_3"
+        passphrase: "okx_account1_passphrase_3"
+    account_2:
+      - api_key: "okx_account2_api_key_1"
+        secret: "okx_account2_secret_1"
+        passphrase: "okx_account2_passphrase_1"
+      - api_key: "okx_account2_api_key_2"
+        secret: "okx_account2_secret_2"
+        passphrase: "okx_account2_passphrase_2"
+      - api_key: "okx_account2_api_key_3"
+        secret: "okx_account2_secret_3"
+        passphrase: "okx_account2_passphrase_3"
+  gateio:
+    account_1:
+      - api_key: "gateio_account1_api_key_1"
+        secret: "gateio_account1_secret_1"
+      - api_key: "gateio_account1_api_key_2"
+        secret: "gateio_account1_secret_2"
+      - api_key: "gateio_account1_api_key_3"
+        secret: "gateio_account1_secret_3"
+    account_2:
+      - api_key: "gateio_account2_api_key_1"
+        secret: "gateio_account2_secret_1"
+      - api_key: "gateio_account2_api_key_2"
+        secret: "gateio_account2_secret_2"
+      - api_key: "gateio_account2_api_key_3"
+        secret: "gateio_account2_secret_3"
+telegram:
+  bot_token: "your_telegram_bot_token"
+  chat_id: "your_chat_id"
+paths:
+  logs: "/path/to/logs"
+  data: "/path/to/data"
+profit_target:
+  daily: 0.25  # Цель прибыли в день (25%)
+arbitrage:
+  symbols: ["BTC/USDT", "ETH/USDT"]  # Символы для арбитража
